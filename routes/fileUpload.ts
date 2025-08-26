@@ -8,6 +8,8 @@ import fs from 'node:fs'
 import vm from 'node:vm'
 import path from 'node:path'
 import yaml from 'js-yaml'
+
+import libxml from 'libxmljs2'
 import unzipper from 'unzipper'
 import { type NextFunction, type Request, type Response } from 'express'
 import type { XmlDocument as XmlDocumentType, ParseOption as ParseOptionType } from 'libxml2-wasm'
